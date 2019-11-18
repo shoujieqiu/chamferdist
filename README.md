@@ -28,7 +28,7 @@ That's it! You're now ready to go. Here's a quick guide to using the package. Fi
 
 ```python
 >>> import torch
->>> from chamferdist import ChamferDist
+>>> from chamferdist import *
 ```
 
 Create two random pointclouds. Each pointcloud is a 3D tensor with dimensions `batchsize` x `number of points` x `number of dimensions`.
